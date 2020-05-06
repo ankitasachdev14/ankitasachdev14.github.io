@@ -1,0 +1,96 @@
+<!Doctype html>
+<head>
+<link rel="stylesheet" href="style.css">
+<style>
+body{
+background-image:url("images11/19.jpg");
+}
+.contact-section{
+text-align:center;
+padding:10px;
+color:pink;}
+
+.contact-article{
+margin:auto;
+width:300px;
+height:300px;
+background:whitesmoke url("images11/15.jpg")repeat scroll left bottom;
+border-radius:15px;}
+
+.simple{
+text-align:center;
+animation:simple 2s infinite linear;}
+
+@keyframes simple{
+from{
+background-color:blue;}
+to{background-color:lightblue;}}
+
+input[type='text'],
+input[type=email]{
+font-size:18px;
+height:30px;
+margin:4px;
+border:none;
+outline:none;
+text-align:center;
+color:white;
+background:transparent;}
+
+::placeholder{color:pink;}
+
+textarea{
+border:3px solod pink;
+border-radius:20px;
+}
+
+input[type=submit]{
+background-color:pink;
+margin:15px;
+color:white;
+font-size:15px;
+padding:10px 50px;
+border:black;}
+
+input[type='submit']:hover{
+background-color:blue;
+cursor:pointer;
+box-shadow:0 0 20px grey;}
+
+</style>
+</head>
+<body>
+
+<header class="main-header">
+    <h1>School Website</h1>
+</header>
+<nav>
+    <ul>
+        <li> <a href="proj2.html">Home</a></li>
+        <li> <a href="aboutus.html" class="active">About us</a></li>
+        <li> <a href="gallery.html">Gallery</a></li>
+        <li> <a href="contactus.html">Contact us</a></li>
+    </ul>
+</nav>
+<div style="clear: both"></div>
+
+<div class="simple">
+<h1>Contact Us</h1></div>
+<section class="contact-section">
+<article class="contact-article">
+<h2>Contact us</h2><form>
+<input type="text" placeholder="your name"><br>
+<input type="email"placeholder="Email-Id"><br>
+<textarea rows="5" cols="20"></textarea><br>
+<input type="submit"value="contact"></form></section>
+
+<footer class="main-footer">
+<h3>Copyright @2018,schoolwebsite</h3>
+<small>Developed & maintained by
+<a href="https://github.com/ankitasachdev14">
+<i class="fa fa-user-circle"></i>Ankita Sachdev</a>
+</small></footer>
+
+
+</body>
+</html>
